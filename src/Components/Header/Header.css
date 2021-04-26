@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Original+Surfer&display=swap');
+.header {
+    width: 100%;
+    cursor: pointer;
+    position: fixed;
+    display: flex;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    background-color: #11101b;
+    font-family: 'Original Surfer', cursive;
+    font-weight: 700;
+    font-size: 25px;
+    box-shadow: 0px 1px 5px black;
+    color: #f50057;
+    z-index: 100;
+    background-image: url('../../dark.jpg');
+  }
+  .header p{
+    font-weight: 500;
+  }
+  
+  @media (max-width: 1000px) {
+    .header {
+      padding-top: 15px;
+      font-size: 6.4vw;
+    }
+  }
